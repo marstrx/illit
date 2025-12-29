@@ -1,6 +1,8 @@
-function App() {
+import type { JSX } from "react";
+
+function App() : JSX.Element {
   return (
-    <div>App</div>
+    <div className="text-center">App</div>
   )
 }
 
